@@ -1,8 +1,16 @@
-# React + Vite
+# Fuzzy Name conversion of Hindi Names in Police Records
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Installation Steps
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository.
+   ```bash
+    git clone https://github.com/pujamavadhiya/Fuzzy-Names.git
+2. Navigate to the project directory.
+   ```bash
+    cd Fuzzy-Names
+3. Install the dependencies:
+   ```bash
+   npm install
+4. Run:
+   ```bash
+   npm run dev
