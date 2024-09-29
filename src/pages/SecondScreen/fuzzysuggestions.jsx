@@ -84,10 +84,11 @@ export default function Example() {
                         >
                           Similarity
                         </th>
-                        <th
-                          scope="col"
-                          className="relative py-3.5 pl-3 pr-4 sm:pr-6"
-                        ></th>
+                        <th scope="col" className="px-3 py-3.5 pl-20 text-left text-sm font-semibold text-gray-900"
+                        style={{ width: '20%' }}
+                        >
+                           Description 
+                         </th>
                       </tr>
                     </thead>
                     <tbody className="bg-white">
@@ -110,6 +111,11 @@ export default function Example() {
                               ></div>
                             </div>
                             <span className="text-xs text-gray-500">{person.progress}%</span>
+                          </td>
+                          <td className="relative pl-20">
+                            <a href="https://www.ncrb.gov.in" className="text-indigo-600 hover:text-indigo-900">
+                            Click Here<span className="sr-only">, {person.name}</span>
+                            </a>
                           </td>
                         </tr>
                       ))}
